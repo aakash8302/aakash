@@ -10,7 +10,7 @@ function Header() {
         <Container>
         <LinkContainer to='/'>
             <Navbar.Brand href="#home">
-                <Image src={dev} alt='logo' height="50px"/>
+                <Image className='logo' src={dev} alt='logo' height="50px"/>
             </Navbar.Brand>
         </LinkContainer>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />

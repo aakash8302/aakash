@@ -2,9 +2,13 @@
   margin-top: 3%;
 }
 
+.logo{
+  width: 45px;
+  object-fit: contain;
+}
+
 .name{
   margin-bottom: 30px;
-  width: 25em;
   font-size: 20px;
 }
 .line{
@@ -16,6 +20,7 @@
   overflow: hidden; transform: translateY(-50%);
   font-weight: bold;
   font-size: 70px;
+  margin-top: 2%;
 }
 
 .anim-typewriter{
@@ -29,6 +34,14 @@
 
 .homeScreen{
   align-items: center;
+}
+
+.col-1{
+  width: auto;
+}
+
+.col-2{
+  width: auto;
 }
 
 @keyframes typewriter{
@@ -62,4 +75,39 @@
 
 .fab{
   color: black;
+}
+
+@media only screen and (max-width: 400px) {
+  .line{
+    font-size: 50px;
+    margin-top: 25%;
+  }
+  .logo{
+    width: 35px;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width:401px) and (max-width: 990px) {
+  .line{
+    font-size: 60px;
+    margin-top: 15%;
+  }
+  .logo{
+    width: 35px;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1025px){
+ .line{
+   font-size: 85px;
+   margin-top: 60%;
+ }
+ .name{
+   font-size: 30px;
+ }
+ .homeScreen{
+   margin-bottom: 30%;
+ }
 }
