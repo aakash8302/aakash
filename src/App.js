@@ -12,10 +12,10 @@ function App() {
     <Router>
       <Header />
           <main className="app-main">
-            <Route path='/' component={HomeScreen} exact />
-            <Route path='/work' component={PageContruction} />
-            <Route path='/about' component={PageContruction} />
-            <Route path='/contact' component={PageContruction} />
+            <Route path='/aakash' component={HomeScreen} exact />
+            <Route path='/aakash/work' component={PageContruction} />
+            <Route path='/aakash/about' component={PageContruction} />
+            <Route path='/aakash/contact' component={PageContruction} />
           </main>
       <Footer />    
     </Router>
