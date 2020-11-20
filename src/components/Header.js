@@ -16,10 +16,20 @@ function Header() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link className="px-3 nav-link" href="#home">Home</Nav.Link>
-      <Nav.Link className="px-3 nav-link" href="#link">About</Nav.Link>
-      <Nav.Link className='px-3 nav-link' href='#work'>Work</Nav.Link>
-      <Nav.Link className="px-3 nav-link" href="#contact">Contact</Nav.Link>
+      <LinkContainer to='/'>
+         <Nav.Link className="px-3 nav-link">Home</Nav.Link>
+      </LinkContainer>
+
+      <LinkContainer to='/about'>
+        <Nav.Link className="px-3 nav-link">About</Nav.Link>
+      </LinkContainer>
+
+      <LinkContainer to="/work">
+        <Nav.Link className='px-3 nav-link'>Work</Nav.Link>
+      </LinkContainer>
+      <LinkContainer to="/contact">
+        <Nav.Link className="px-3 nav-link">Contact</Nav.Link>
+      </LinkContainer>
     </Nav>
   </Navbar.Collapse>
   </Container>

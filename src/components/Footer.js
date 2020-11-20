@@ -6,7 +6,7 @@ function Footer() {
     return (
         <Container>
             <Row>
-                <Col className="footer">
+                <Col className="footer sticky">
                     <a href='#'><i class="fab fa-facebook-square fa-2x"></i></a>
                     <a href='#'><i class="fab fa-instagram fa-2x"></i></a>
                     <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
