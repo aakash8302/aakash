@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/aakash/static/css/main.62cddd6f.chunk.css",
-    "main.js": "/aakash/static/js/main.dfc649e6.chunk.js",
-    "main.js.map": "/aakash/static/js/main.dfc649e6.chunk.js.map",
+    "main.css": "/aakash/static/css/main.b4a2e2a1.chunk.css",
+    "main.js": "/aakash/static/js/main.2826a630.chunk.js",
+    "main.js.map": "/aakash/static/js/main.2826a630.chunk.js.map",
     "runtime-main.js": "/aakash/static/js/runtime-main.589097b5.js",
     "runtime-main.js.map": "/aakash/static/js/runtime-main.589097b5.js.map",
     "static/js/2.437740ed.chunk.js": "/aakash/static/js/2.437740ed.chunk.js",
     "static/js/2.437740ed.chunk.js.map": "/aakash/static/js/2.437740ed.chunk.js.map",
     "index.html": "/aakash/index.html",
-    "static/css/main.62cddd6f.chunk.css.map": "/aakash/static/css/main.62cddd6f.chunk.css.map",
+    "static/css/main.b4a2e2a1.chunk.css.map": "/aakash/static/css/main.b4a2e2a1.chunk.css.map",
     "static/js/2.437740ed.chunk.js.LICENSE.txt": "/aakash/static/js/2.437740ed.chunk.js.LICENSE.txt",
     "static/media/vector-min.2f32f673.jpg": "/aakash/static/media/vector-min.2f32f673.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.589097b5.js",
     "static/js/2.437740ed.chunk.js",
-    "static/css/main.62cddd6f.chunk.css",
-    "static/js/main.dfc649e6.chunk.js"
+    "static/css/main.b4a2e2a1.chunk.css",
+    "static/js/main.2826a630.chunk.js"
   ]
 }
