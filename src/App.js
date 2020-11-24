@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Header />
           <main className="app-main">
-            <Route path='/aakash' component={HomeScreen} exact />
+            <Route path='/' component={HomeScreen} exact />
             <Route path='/work' component={PageContruction} />
             <Route path='/about' component={PageContruction} />
             <Route path='/contact' component={PageContruction} />
